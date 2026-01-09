@@ -1,0 +1,34 @@
+# Environment
+.env
+.env.local
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data
+data/interactions.jsonl
+data/*.jsonl
+
+# Docker
+.docker/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
